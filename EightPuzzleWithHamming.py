@@ -1,12 +1,16 @@
+"""
+This file provides Hamming heuristic function for EightPuzzle
+"""
+
 from EightPuzzle import *
 
-
 def h(s):
-    h_distance = 0
-    correct_n = 0
+    """
+    Returns the # of tiles which are out of place
+    """
+    count = 0
     for i in range(3):
         for j in range(3):
-            if s[i][j] != correct_n:
-                h_distance += 1
-            correct_n += 1
-    return h_distance
+            if s.b[i][j] != 0 and s.b[i][j] != 3 * i + j:
+                count += 1
+    return count
