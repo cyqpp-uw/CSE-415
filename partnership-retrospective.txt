@@ -1,0 +1,7 @@
+(a)
+Student Name: Kaijun Gao
+Student Name: Patrick Cheng
+
+(b)
+We start this assignment individually and then compare our result.
+Then we share the problem in our code and result and get the final version solution

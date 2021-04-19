@@ -1,14 +1,24 @@
-""" AStar.py
-by Kaijun Gao
-UWNetID: kg52
-Student Number: 1766618
+""" UCS.py
 
-Assignment 2, Part 1, in CSE 415, Spring 2021
+Uniform Cost Search of a problem space.
+ Steve Tanimoto, Univ. of Washington.
+ Refactored to support autograding by Prashant Rangarajan.
+ Paul G. Allen School of Computer Science and Engineering
+ April 6, 2021.
 
-This files contains my implementation of the A* Search algorithm.
+ Usage:
+ python3 UCS.py FranceWithCosts
+This implementation does not reconsider a state once it has
+been put on CLOSED list.  If this implementation is extended
+to implement A*, and it is to work will all heuristics,
+including non-admissible ones, then when a state is regenerated
+that was already put on the CLOSED list, it may need reconsideration
+if the new priority value is lower than the old one.
 
-Usage:
-python3 AStar.py FranceWithDXHeuristic
+Most of the print statements have been commented out, but can be
+useful for a closer look at execution, or if preparing some
+debugging infrastructure before adding extensions, such as for A*.
+
 """
 
 import sys
@@ -16,21 +26,17 @@ import importlib
 from PriorityQueue import My_Priority_Queue
 
 
-class AStar:
+class UniformCostSearch:
     """
-    Class that implements A* Search for any problem space (provided in the required format)
+    Class that implements Uniform-Cost Search for any problem space (provided in the required format)
     """
     def __init__(self, problem):
-        """ Initializing the AStar class.
-        Please DO NOT modify this method. You may populate the required instance variables
-        in the other methods you implement.
-        """
         self.Problem = importlib.import_module(problem)
-        self.COUNT = 0  # Number of nodes expanded.
-        self.MAX_OPEN_LENGTH = 0  # How long OPEN ever gets.
-        self.PATH = []  # List of states from initial to goal, along lowest-cost path.
-        self.PATH_LENGTH = 0  # Number of states from initial to goal, along lowest-cost path.
-        self.TOTAL_COST = 0  # Sum of edge costs along the lowest-cost path.
+        self.COUNT = None  # Number of nodes expanded.
+        self.MAX_OPEN_LENGTH = None  # How long OPEN ever gets.
+        self.PATH = None  # List of states from initial to goal, along lowest-cost path.
+        self.PATH_LENGTH = None  # Number of states from initial to goal, along lowest-cost path.
+        self.TOTAL_COST = None  # Sum of edge costs along the lowest-cost path.
         self.BACKLINKS = {}  # Predecessor links, used to recover the path.
         self.OPEN = None  # OPEN list
         self.CLOSED = None  # CLOSED list
@@ -39,13 +45,12 @@ class AStar:
         # The value g(s) represents the cost along the best path found so far
         # from the initial state to state s.
         self.g = {}  # We will use a hash table to associate g values with states.
-        self.h = self.Problem.h  # Heuristic function
 
-        print("\nWelcome to A*.")
+        print("\nWelcome to UCS.")
 
-    def runAStar(self):
+    def runUCS(self):
         """This is an encapsulation of some setup before running
-        Astar, plus running it and then printing some stats."""
+        UCS, plus running it and then printing some stats."""
         initial_state = self.Problem.CREATE_INITIAL_STATE()
         print("Initial State:")
         print(initial_state)
@@ -54,13 +59,13 @@ class AStar:
         self.MAX_OPEN_LENGTH = 0
         self.BACKLINKS = {}
 
-        self.AStar(initial_state)
+        self.UCS(initial_state)
         print(f"Number of states expanded: {self.COUNT}")
         print(f"Maximum length of the open list: {self.MAX_OPEN_LENGTH}")
 
         # print("The CLOSED list is: ", ''.join([str(s)+' ' for s in CLOSED]))
 
-    def AStar(self, initial_state):
+    def UCS(self, initial_state):
         """Uniform Cost Search: This is the actual algorithm."""
         self.CLOSED = []
         self.BACKLINKS[initial_state] = None
@@ -105,45 +110,34 @@ class AStar:
                 if op.is_applicable(S):
                     new_state = op.apply(S)
 
-                    edge_cost = S.edge_distance(new_state)
-                    # computes f values using f(s') = g(s') + h(s')
-                    new_f = gs + edge_cost + self.h(new_state)
-                    # Consider each [s', f(s')}. f(s') here is new_f
-                    # if there is already a pair [s', q] on CLOSED(for any value q)
                     if new_state in self.CLOSED:
-                        q = self.g[new_state]
-                        # if f(s') > q, then remove [s,f(s')] from L
-                        if new_f > q:
-                            del new_state
-                            continue
-                        # if f(s') <= q, then remove[s',q] from CLOSED
-                        else:
-                            self.CLOSED.remove(new_state)
-
+                        # print("Already have this state, in CLOSED. del ...")
+                        del new_state
+                        continue
+                    edge_cost = S.edge_distance(new_state)
+                    new_g = gs + edge_cost
 
                     # If new_state already exists on OPEN:
                     #   If its new priority is less than its old priority,
                     #     update its priority on OPEN, and set its BACKLINK to S.
                     #   Else: forget out this new state object... delete it.
 
-                    # if there is already a pair [s', q] on OPEN(for any value q)
                     if new_state in self.OPEN:
                         # print("new_state is in OPEN already, so...")
-                        q = self.OPEN[new_state]
-                        # if f(s') > q, then remove [s, f(s')] from L
-                        if new_f > q:
+                        P = self.OPEN[new_state]
+                        if new_g < P:
+                            # print("New priority value is lower, so del older one")
+                            del self.OPEN[new_state]
+                            self.OPEN.insert(new_state, new_g)
+                        else:
+                            # print("Older one is better, so del new_state")
                             del new_state
                             continue
-                        # if f(s') <= q, then remove [s', q] from OPEN
-                        else:
-                            del self.OPEN[new_state]
-                            self.OPEN.insert(new_state, new_f)
                     else:
                         # print("new_state was not on OPEN at all, so just put it on.")
-                        self.OPEN.insert(new_state, new_f)
-
+                        self.OPEN.insert(new_state, new_g)
                     self.BACKLINKS[new_state] = S
-                    self.g[new_state] = gs + edge_cost
+                    self.g[new_state] = new_g
 
         # print_state_queue("OPEN", OPEN)
         # STEP 6. Go to Step 2.
@@ -180,10 +174,12 @@ def report(opn, closed, count):
     print(f"len(CLOSED)= {len(closed)}", end='; ')
     print(f"COUNT = {count}")
 
+
 if __name__ == '__main__':
     if sys.argv == [''] or len(sys.argv) < 2:
-        Problem = "FranceWithDXHeuristic"
+        Problem = "FranceWithCosts"
     else:
         Problem = sys.argv[1]
-    aStar = AStar(Problem)
-    aStar.runAStar()
+    UCS = UniformCostSearch(Problem)
+    UCS.runUCS()
+    print(UCS.PATH)
