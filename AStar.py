@@ -18,7 +18,6 @@ import sys
 import importlib
 from PriorityQueue import My_Priority_Queue
 
-
 class AStar:
     """
     Class that implements A* Search for any problem space (provided in the required format)
@@ -46,10 +45,6 @@ class AStar:
 
         print("\nWelcome to A*.")
 
-    def runAStar(self):
-        # Comment out the line below when this function is implemented.
-        raise NotImplementedError
-
     def runAstar(self):
         """This is an encapsulation of some setup before running
         UCS, plus running it and then printing some stats."""
@@ -60,7 +55,6 @@ class AStar:
         self.COUNT = 0
         self.MAX_OPEN_LENGTH = 0
         self.BACKLINKS = {}
-
         self.Astar(initial_state)
         print(f"Number of states expanded: {self.COUNT}")
         print(f"Maximum length of the open list: {self.MAX_OPEN_LENGTH}")
@@ -80,9 +74,7 @@ class AStar:
 
         # STEP 1b. Assign g=0 to the start state.
         # fn = gn + hn
-        self.g[initial_state] = 0.0 + h(initial_state)
-        # add the starting state
-        self.OPEN.insert(initial_state, g[initial_state])
+        self.g[initial_state] = 0.0 
 
         # STEP 2. If OPEN is empty, output “DONE” and stop.
         while len(self.OPEN) > 0:
@@ -121,7 +113,7 @@ class AStar:
                     new_g = gs + S.edge_distance(new_state)
 
                     if new_state in self.CLOSED:
-                        if new_g + Problem.h(new_state) > g[new_state]:
+                        if new_g + Problem.h(new_state) > self.g[new_state]:
                             del new_state
                             continue
                         else:
@@ -146,7 +138,7 @@ class AStar:
                     else:
                         # print("new_state was not on OPEN at all, so just put it on.")
                         self.OPEN.insert(new_state, new_g + Problem.h(new_state))
-                        
+
                     self.BACKLINKS[new_state] = S
                     self.g[new_state] = new_g
 
@@ -190,5 +182,5 @@ if __name__ == '__main__':
         Problem = "FranceWithDXHeuristic"
     else:
         Problem = sys.argv[1]
-    aStar = AStar(Problem)
-    aStar.runAStar()
+    AStar = AStar(Problem)
+    AStar.runAstar()
