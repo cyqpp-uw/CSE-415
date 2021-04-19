@@ -46,10 +46,6 @@ class AStar:
 
         print("\nWelcome to A*.")
 
-    def runAStar(self):
-        # Comment out the line below when this function is implemented.
-        raise NotImplementedError
-
     def runAstar(self):
         """This is an encapsulation of some setup before running
         UCS, plus running it and then printing some stats."""
@@ -146,7 +142,7 @@ class AStar:
                     else:
                         # print("new_state was not on OPEN at all, so just put it on.")
                         self.OPEN.insert(new_state, new_g + Problem.h(new_state))
-                        
+
                     self.BACKLINKS[new_state] = S
                     self.g[new_state] = new_g
 
@@ -190,5 +186,5 @@ if __name__ == '__main__':
         Problem = "FranceWithDXHeuristic"
     else:
         Problem = sys.argv[1]
-    aStar = AStar(Problem)
-    aStar.runAStar()
+    AStar = AStar(Problem)
+    AStar.runAstar()
