@@ -61,8 +61,7 @@ class AStar:
         # print("The CLOSED list is: ", ''.join([str(s)+' ' for s in CLOSED]))
 
     def AStar(self, initial_state):
-        """Uniform Cost Search: This is the actual algorithm."""
-        self.CLOSED = []
+        self.CLOSED = {}
         self.BACKLINKS[initial_state] = None
         # The "Step" comments below help relate UCS's implementation to
         # those of Depth-First Search and Breadth-First Search.
@@ -86,7 +85,7 @@ class AStar:
             #         If S is a goal state, output its description
             (S, P) = self.OPEN.delete_min()
             # print("In Step 3, returned from OPEN.delete_min with results (S,P)= ", (str(S), P))
-            self.CLOSED.append(S)
+            self.CLOSED[S] = P
 
             if self.Problem.GOAL_TEST(S):
                 print(self.Problem.GOAL_MESSAGE_FUNCTION(S))
@@ -111,14 +110,14 @@ class AStar:
                     # Consider each [s', f(s')}. f(s') here is new_f
                     # if there is already a pair [s', q] on CLOSED(for any value q)
                     if new_state in self.CLOSED:
-                        q = self.g[new_state]
+                        q = self.CLOSED[new_state]
                         # if f(s') > q, then remove [s,f(s')] from L
                         if new_f > q:
                             del new_state
                             continue
                         # if f(s') <= q, then remove[s',q] from CLOSED
                         else:
-                            self.CLOSED.remove(new_state)
+                            del self.CLOSED[new_state]
 
 
                     # If new_state already exists on OPEN:
