@@ -99,7 +99,7 @@ DONE = False
 # To change, simply add an import and change p1 or p2 to desired Agent
 from agents import randomAgent, SkeletonAgent, backgammon_dsbg, backgammon_ssbg
 ##agent1 represents the white checkers and agent2 the red checkers
-agent1 = backgammon_dsbg.BackgammonPlayer()
+agent1 = backgammon_ssbg.BackgammonPlayer()
 agent2 = SkeletonAgent.BackgammonPlayer()
 
 DETERMINISTIC = True  # deterministic version: dice are loaded to give 1 and 6

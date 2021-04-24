@@ -1,0 +1,5272 @@
+The Simplified Backgammon Game-master (V20-1) says: Welcome!
+Playing WHITE: kg52 cyqpp
+Playing RED: Skeleton
+computing turn 0
+
+ After turn 1 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R           W    | W              R |
+| R           W    | W              R |
+| R           W    | W                |
+| R                | W                |
+| R                | W                |
++------------------+------------------+
+| W                | R                |
+| W                | R                |
+| W           R    | R                |
+| W           R    | R              W |
+| W           R    | R              W |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 17,12
+Applying move...checker at 17 will be moved by 1 and checker at 12 will be moved by 6
+computing turn 1
+
+ After turn 2 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R           W  W | W              R |
+| R           W  W | W              R |
+| R                | W                |
+| R                | W                |
+| R                | W                |
++------------------+------------------+
+|                  | R                |
+| W                | R                |
+| W           R    | R                |
+| W           R    | R              W |
+| W           R    | R              W |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 13,7,R
+Applying move...checker at 13 will be moved by 6 and checker at 7 will be moved by 1
+computing turn 2
+
+ After turn 3 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R           W  W | W              R |
+| R           W  W | W              R |
+| R                | W                |
+| R                | W                |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+|                  | R                |
+| W                | R                |
+| W           R    | R                |
+| W           R    | R              W |
+| W           R    | R              W |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 18,12
+Applying move...checker at 18 will be moved by 1 and checker at 12 will be moved by 6
+computing turn 3
+
+ After turn 4 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R           W  W | W              R |
+| R           W  W | W              R |
+| R                | W                |
+| R                | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+|                  | R                |
+|                  | R                |
+| W           R    | R                |
+| W           R    | R              W |
+| W           R    | R              W |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 8,24,R
+Applying move...checker at 8 will be moved by 6 and checker at 24 will be moved by 1
+computing turn 4
+
+ After turn 5 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R           W  W | W           R  R |
+| R           W  W | W                |
+| R                | W                |
+| R                | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+|                  | R                |
+|                  | R                |
+| W                | R                |
+| W           R    | R              W |
+| W           R    | R           R  W |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 1,17
+Applying move...checker at 1 will be moved by 1 and checker at 17 will be moved by 6
+computing turn 5
+
+ After turn 6 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R           W  W | W           W  R |
+| R              W | W                |
+| R                | W                |
+| R                | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+|                  | R                |
+|                  | R                |
+| W                | R                |
+| W           R    | R                |
+| W           R    | R           W  W |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+bar:RR
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 0,p
+Applying move...checker at 0 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 6
+
+ After turn 7 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R           W  W | W           W  R |
+| R              W | W              R |
+| R                | W                |
+| R                | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+|                  | R                |
+|                  | R                |
+| W                | R                |
+| W           R    | R                |
+| W           R    | R           W  W |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+bar:R
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 1,17
+Applying move...checker at 1 will be moved by 1 and checker at 17 will be moved by 6
+computing turn 7
+
+ After turn 8 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R              W | W           W  R |
+| R              W | W           W  R |
+| R                | W                |
+| R                | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+|                  | R                |
+|                  | R                |
+| W                | R                |
+| W           R    | R           W    |
+| W           R    | R           W    |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+bar:R
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 0,p
+Applying move...checker at 0 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 8
+
+ After turn 9 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R              W | W           W  R |
+| R              W | W           W  R |
+| R                | W              R |
+| R                | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+|                  | R                |
+|                  | R                |
+| W                | R                |
+| W           R    | R           W    |
+| W           R    | R           W    |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 18,12
+Applying move...checker at 18 will be moved by 1 and checker at 12 will be moved by 6
+computing turn 9
+
+ After turn 10 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R              W | W           W  R |
+| R              W | W           W  R |
+| R                | W              R |
+| R                | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+|                  | R                |
+|                  | R                |
+|                  | R                |
+| W           R    | R           W    |
+| W           R    | R           W    |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 13,6,R
+Applying move...checker at 13 will be moved by 6 and checker at 6 will be moved by 1
+computing turn 10
+
+ After turn 11 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R              W | W           W  R |
+| R              W | W           W  R |
+| R                | W              R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+|                  | R                |
+|                  | R                |
+| W           R    | R           W    |
+| W           R  R | R  R        W    |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 2,3
+Applying move...checker at 2 will be moved by 1 and checker at 3 will be moved by 6
+computing turn 11
+
+ After turn 12 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R              W | W           W  R |
+| R              W | W           W  R |
+| R                | W              R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+|                  | R                |
+|                  | R                |
+| W           R    | R                |
+| W        W  R  R | R  R        W    |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 6,13
+Applying move...checker at 6 will be moved by 1 and checker at 13 will be moved by 6
+computing turn 12
+
+ After turn 13 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R              W | W           W  R |
+| R              W | W           W  R |
+|                  | W              R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+|                  | R                |
+| W           R  R | R  R             |
+| W        W  R  R | R  R        W    |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 2,3
+Applying move...checker at 2 will be moved by 1 and checker at 3 will be moved by 6
+computing turn 13
+
+ After turn 14 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R              W | W           W  R |
+| R              W | W           W  R |
+|                  | W              R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+|                  | R                |
+| W        W  R  R | R  R             |
+| W        W  R  R | R  R             |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 6,7
+Applying move...checker at 6 will be moved by 1 and checker at 7 will be moved by 6
+computing turn 14
+
+ After turn 15 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R              W | W           W  R |
+| R              W | W           W  R |
+|                  | W              R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  | R  R             |
+| W        W  R    | R  R             |
+| W        W  R  R | R  R           R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 9,9
+Applying move...checker at 9 will be moved by 1 and checker at 9 will be moved by 6
+computing turn 15
+
+ After turn 16 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R     W        W | W           W  R |
+| R              W | W           W  R |
+|                  | W              R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  | R  R             |
+| W           R    | R  R             |
+| W     W     R  R | R  R           R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 6,13
+Applying move...checker at 6 will be moved by 1 and checker at 13 will be moved by 6
+computing turn 16
+
+ After turn 17 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R     W        W | W           W  R |
+|                W | W           W  R |
+|                  | W              R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  |    R             |
+|                  |    R             |
+| W           R  R | R  R             |
+| W     W     R  R | R  R           R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 15,10
+Applying move...checker at 15 will be moved by 1 and checker at 10 will be moved by 6
+computing turn 17
+
+ After turn 18 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R        W     W | W           W  R |
+|          W     W | W           W  R |
+|                  | W              R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  |    R             |
+|                  |    R             |
+| W           R  R | R  R             |
+| W           R  R | R  R           R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 8,2,R
+Applying move...checker at 8 will be moved by 6 and checker at 2 will be moved by 1
+computing turn 18
+
+ After turn 19 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R        W     W | W           W  R |
+|          W     W | W           W  R |
+|                  | W              R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  |    R             |
+|                  |    R             |
+| W              R | R  R           R |
+| W           R  R | R  R           R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 12,13
+Applying move...checker at 12 will be moved by 1 and checker at 13 will be moved by 6
+computing turn 19
+
+ After turn 20 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|          W     W | W           W  R |
+|          W     W | W           W  R |
+|                  | W              R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  |    R             |
+|                  |    R             |
+|                R | R  R           R |
+| W           R  R | R  R           R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+bar:R
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 0,p
+Applying move...checker at 0 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 20
+
+ After turn 21 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|          W     W | W           W  R |
+|          W     W | W           W  R |
+|                  | W              R |
+|                  | W              R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  |    R             |
+|                  |    R             |
+|                R | R  R           R |
+| W           R  R | R  R           R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 12,13
+Applying move...checker at 12 will be moved by 1 and checker at 13 will be moved by 6
+computing turn 21
+
+ After turn 22 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|          W     W | W           W  R |
+|          W     W | W           W  R |
+|                  | W              R |
+|                  | W              R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  |    R             |
+|                  |    R             |
+|                R | R  R           R |
+|             R  R | R  R           R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 6,7
+Applying move...checker at 6 will be moved by 1 and checker at 7 will be moved by 6
+computing turn 22
+
+ After turn 23 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|          W     W | W           W  R |
+|          W     W | W           W  R |
+|                  | W              R |
+|                  | W              R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  |    R             |
+|                  |    R             |
+|                  |    R           R |
+|                  |    R           R |
+|             R  R | R  R           R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 16,17
+Applying move...checker at 16 will be moved by 1 and checker at 17 will be moved by 6
+computing turn 23
+
+ After turn 24 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|          W     W | W           W  R |
+|                W | W           W  R |
+|                  | W           W  R |
+|                  | W              R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  |    R             |
+|                  |    R             |
+|                  |    R           R |
+|                  |    R           R |
+|             R  R | R  R           R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 8,7
+Applying move...checker at 8 will be moved by 1 and checker at 7 will be moved by 6
+computing turn 24
+
+ After turn 25 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|          W     W | W           W  R |
+|                W | W           W  R |
+|                  | W           W  R |
+|                  | W              R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  |    R             |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                R | R  R           R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 16,17
+Applying move...checker at 16 will be moved by 1 and checker at 17 will be moved by 6
+computing turn 25
+
+ After turn 26 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W           W  R |
+|                W | W           W  R |
+|                  | W           W  R |
+|                  | W           W  R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  |    R             |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                R | R  R           R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 5,7
+Applying move...checker at 5 will be moved by 1 and checker at 7 will be moved by 6
+computing turn 26
+
+ After turn 27 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W           W  R |
+|                W | W           W  R |
+|                  | W           W  R |
+|                  | W           W  R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  |                R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                  | R  R  R        R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 19,p
+Applying move...checker at 19 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 27
+
+ After turn 28 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W  W        W  R |
+|                W | W           W  R |
+|                  | W           W  R |
+|                  | W           W  R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  |                R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                  | R  R  R        R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 6,p
+Applying move...checker at 6 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 28
+
+ After turn 29 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W  W        W  R |
+|                W | W           W  R |
+|                  | W           W  R |
+|                  | W           W  R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R  R        R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 19,p
+Applying move...checker at 19 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 29
+
+ After turn 30 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W  W        W  R |
+|                W | W  W        W  R |
+|                  | W           W  R |
+|                  | W           W  R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R  R        R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 4,p
+Applying move...checker at 4 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 30
+
+ After turn 31 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W  W        W  R |
+|                W | W  W        W  R |
+|                  | W           W  R |
+|                  | W           W  R |
+|                  | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R     R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 19,p
+Applying move...checker at 19 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 31
+
+ After turn 32 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W  W        W  R |
+|                W | W  W        W  R |
+|                  | W  W        W  R |
+|                  | W           W  R |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R     R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 5,p
+Applying move...checker at 5 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 32
+
+ After turn 33 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W  W        W  R |
+|                W | W  W        W  R |
+|                  | W  W        W  R |
+|                  | W           W  R |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  |                R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R  R  R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 19,p
+Applying move...checker at 19 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 33
+
+ After turn 34 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W  W        W  R |
+|                W | W  W        W  R |
+|                  | W  W        W  R |
+|                  | W  W        W  R |
+|                  | W                |
++------------------+------------------+
+|                  |                R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R  R  R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 3,p
+Applying move...checker at 3 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 34
+
+ After turn 35 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W  W        W  R |
+|                W | W  W        W  R |
+|                  | W  W        W  R |
+|                  | W  W        W  R |
+|                  | W                |
++------------------+------------------+
+|                  |                R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R  R     R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 19,p
+Applying move...checker at 19 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 35
+
+ After turn 36 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W  W        W  R |
+|                W | W  W        W  R |
+|                  | W  W        W  R |
+|                  | W  W        W  R |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R  R     R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 2,p
+Applying move...checker at 2 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 36
+
+ After turn 37 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W  W        W  R |
+|                W | W  W        W  R |
+|                  | W  W        W  R |
+|                  | W  W        W  R |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R  R        R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 19,p
+Applying move...checker at 19 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 37
+
+ After turn 38 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W  W        W  R |
+|                W | W  W        W  R |
+|                  | W  W        W  R |
+|                  |    W        W  R |
+|                  |    W             |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R           R |
+|                  |    R  R        R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 5,p
+Applying move...checker at 5 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 38
+
+ After turn 39 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W  W        W  R |
+|                W | W  W        W  R |
+|                  | W  W        W  R |
+|                  |    W        W  R |
+|                  |    W             |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |    R           R |
+|                  |    R  R        R |
+|                  |    R  R        R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 19,p
+Applying move...checker at 19 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 39
+
+ After turn 40 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W  W        W  R |
+|                W | W  W        W  R |
+|                  |    W        W  R |
+|                  |    W        W  R |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |    R           R |
+|                  |    R  R        R |
+|                  |    R  R        R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 5,p
+Applying move...checker at 5 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 40
+
+ After turn 41 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W  W        W  R |
+|                W | W  W        W  R |
+|                  |    W        W  R |
+|                  |    W        W  R |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |       R        R |
+|                  |    R  R        R |
+|                  |    R  R        R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 19,p
+Applying move...checker at 19 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 41
+
+ After turn 42 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W  W        W  R |
+|                W |    W        W  R |
+|                  |    W        W  R |
+|                  |    W        W  R |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |       R        R |
+|                  |    R  R        R |
+|                  |    R  R        R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 4,p
+Applying move...checker at 4 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 42
+
+ After turn 43 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W  W        W  R |
+|                W |    W        W  R |
+|                  |    W        W  R |
+|                  |    W        W  R |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |    R  R        R |
+|                  |    R  R  R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 19,p
+Applying move...checker at 19 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 43
+
+ After turn 44 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W        W  R |
+|                W |    W        W  R |
+|                  |    W        W  R |
+|                  |    W        W  R |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |    R  R        R |
+|                  |    R  R  R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 4,p
+Applying move...checker at 4 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 44
+
+ After turn 45 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W        W  R |
+|                W |    W        W  R |
+|                  |    W        W  R |
+|                  |    W        W  R |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |    R     R     R |
+|                  |    R  R  R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 20,p
+Applying move...checker at 20 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 45
+
+ After turn 46 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W  W     W  R |
+|                W |    W        W  R |
+|                  |    W        W  R |
+|                  |    W        W  R |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |    R     R     R |
+|                  |    R  R  R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 4,p
+Applying move...checker at 4 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 46
+
+ After turn 47 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W  W     W  R |
+|                W |    W        W  R |
+|                  |    W        W  R |
+|                  |    W        W  R |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |          R     R |
+|                  |    R     R     R |
+|                  |    R     R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 20,p
+Applying move...checker at 20 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 47
+
+ After turn 48 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W  W     W  R |
+|                W |    W  W     W  R |
+|                  |    W        W  R |
+|                  |    W        W  R |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |          R     R |
+|                  |    R     R     R |
+|                  |    R     R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 5,p
+Applying move...checker at 5 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 48
+
+ After turn 49 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W  W     W  R |
+|                W |    W  W     W  R |
+|                  |    W        W  R |
+|                  |    W        W  R |
+|                  |    W             |
+|                  |    W             |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |          R     R |
+|                  |          R     R |
+|                  |    R  R  R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 20,p
+Applying move...checker at 20 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 49
+
+ After turn 50 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W  W     W  R |
+|                W |    W  W     W  R |
+|                  |    W  W     W  R |
+|                  |    W        W  R |
+|                  |    W             |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |          R     R |
+|                  |          R     R |
+|                  |    R  R  R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 5,p
+Applying move...checker at 5 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 50
+
+ After turn 51 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W  W     W  R |
+|                W |    W  W     W  R |
+|                  |    W  W     W  R |
+|                  |    W        W  R |
+|                  |    W             |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |          R     R |
+|                  |       R  R     R |
+|                  |       R  R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 20,p
+Applying move...checker at 20 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 51
+
+ After turn 52 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W  W     W  R |
+|                W |    W  W     W  R |
+|                  |    W  W     W  R |
+|                  |    W  W     W  R |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |          R     R |
+|                  |       R  R     R |
+|                  |       R  R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 3,p
+Applying move...checker at 3 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 52
+
+ After turn 53 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W  W     W  R |
+|                W |    W  W     W  R |
+|                  |    W  W     W  R |
+|                  |    W  W     W  R |
+|                  |    W             |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |       R  R     R |
+|                  |       R  R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 20,p
+Applying move...checker at 20 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 53
+
+ After turn 54 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W  W     W  R |
+|                W |    W  W     W  R |
+|                  |    W  W     W  R |
+|                  |    W  W     W  R |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |       R  R     R |
+|                  |       R  R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 4,p
+Applying move...checker at 4 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 54
+
+ After turn 55 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W  W     W  R |
+|                W |    W  W     W  R |
+|                  |    W  W     W  R |
+|                  |    W  W     W  R |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |          R     R |
+|                  |          R     R |
+|                  |       R  R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 20,p
+Applying move...checker at 20 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 55
+
+ After turn 56 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W  W     W  R |
+|                W |    W  W     W  R |
+|                  |    W  W     W  R |
+|                  |       W     W  R |
+|                  |       W          |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |          R     R |
+|                  |          R     R |
+|                  |       R  R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 3,p
+Applying move...checker at 3 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 56
+
+ After turn 57 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W  W     W  R |
+|                W |    W  W     W  R |
+|                  |    W  W     W  R |
+|                  |       W     W  R |
+|                  |       W          |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |          R  R  R |
+|                  |       R  R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 20,p
+Applying move...checker at 20 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 57
+
+ After turn 58 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W  W     W  R |
+|                W |    W  W     W  R |
+|                  |       W     W  R |
+|                  |       W     W  R |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |          R  R  R |
+|                  |       R  R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 3,p
+Applying move...checker at 3 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 58
+
+ After turn 59 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W  W     W  R |
+|                W |    W  W     W  R |
+|                  |       W     W  R |
+|                  |       W     W  R |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |             R  R |
+|                  |             R  R |
+|                  |       R  R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 20,p
+Applying move...checker at 20 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 59
+
+ After turn 60 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W  W     W  R |
+|                W |       W     W  R |
+|                  |       W     W  R |
+|                  |       W     W  R |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |             R  R |
+|                  |             R  R |
+|                  |       R  R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 2,p
+Applying move...checker at 2 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 60
+
+ After turn 61 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |    W  W     W  R |
+|                W |       W     W  R |
+|                  |       W     W  R |
+|                  |       W     W  R |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |             R  R |
+|                  |       R  R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 20,p
+Applying move...checker at 20 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 61
+
+ After turn 62 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W     W  R |
+|                W |       W     W  R |
+|                  |       W     W  R |
+|                  |       W     W  R |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |             R  R |
+|                  |       R  R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 4,p
+Applying move...checker at 4 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 62
+
+ After turn 63 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W     W  R |
+|                W |       W     W  R |
+|                  |       W     W  R |
+|                  |       W     W  R |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |          R  R  R |
+|                  |          R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 21,p
+Applying move...checker at 21 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 63
+
+ After turn 64 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W     W  R |
+|                  |       W     W  R |
+|                  |       W     W  R |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |          R  R  R |
+|                  |          R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 3,p
+Applying move...checker at 3 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 64
+
+ After turn 65 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W     W  R |
+|                  |       W     W  R |
+|                  |       W     W  R |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |             R  R |
+|                  |             R  R |
+|                  |          R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 21,p
+Applying move...checker at 21 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 65
+
+ After turn 66 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |       W     W  R |
+|                  |       W     W  R |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |             R  R |
+|                  |             R  R |
+|                  |          R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 3,p
+Applying move...checker at 3 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 66
+
+ After turn 67 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |       W     W  R |
+|                  |       W     W  R |
+|                  |       W          |
+|                  |       W          |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |             R  R |
+|                  |             R  R |
+|                  |             R  R |
+|                  |             R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 21,p
+Applying move...checker at 21 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 67
+
+ After turn 68 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |       W  W  W  R |
+|                  |       W     W  R |
+|                  |       W          |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |             R  R |
+|                  |             R  R |
+|                  |             R  R |
+|                  |             R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 2,p
+Applying move...checker at 2 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 68
+
+ After turn 69 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |       W  W  W  R |
+|                  |       W     W  R |
+|                  |       W          |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |             R  R |
+|                  |             R  R |
+|                  |             R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 21,p
+Applying move...checker at 21 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 69
+
+ After turn 70 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |       W  W  W  R |
+|                  |       W  W  W  R |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |             R  R |
+|                  |             R  R |
+|                  |             R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 2,p
+Applying move...checker at 2 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 70
+
+ After turn 71 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |       W  W  W  R |
+|                  |       W  W  W  R |
+|                  |       W          |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |             R  R |
+|                  |             R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 21,p
+Applying move...checker at 21 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 71
+
+ After turn 72 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |       W  W  W  R |
+|                  |       W  W  W  R |
+|                  |          W       |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |             R  R |
+|                  |             R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 2,p
+Applying move...checker at 2 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 72
+
+ After turn 73 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |       W  W  W  R |
+|                  |       W  W  W  R |
+|                  |          W       |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |             R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 21,p
+Applying move...checker at 21 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 73
+
+ After turn 74 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |       W  W  W  R |
+|                  |          W  W  R |
+|                  |          W       |
+|                  |          W       |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |             R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 2,p
+Applying move...checker at 2 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 74
+
+ After turn 75 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |       W  W  W  R |
+|                  |          W  W  R |
+|                  |          W       |
+|                  |          W       |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 21,p
+Applying move...checker at 21 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 75
+
+ After turn 76 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |          W  W  R |
+|                  |          W  W  R |
+|                  |          W       |
+|                  |          W       |
+|                  |          W       |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: p
+Game master says: No moves exist in this situation.
+No possible moves, so a double pass is accepted. 
+computing turn 76
+
+ After turn 77 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |          W  W  R |
+|                  |          W  W  R |
+|                  |          W       |
+|                  |          W       |
+|                  |          W       |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 22,p
+Applying move...checker at 22 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 77
+
+ After turn 78 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |          W  W  R |
+|                  |          W  W  R |
+|                  |          W  W    |
+|                  |          W       |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: p
+Game master says: No moves exist in this situation.
+No possible moves, so a double pass is accepted. 
+computing turn 78
+
+ After turn 79 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |          W  W  R |
+|                  |          W  W  R |
+|                  |          W  W    |
+|                  |          W       |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 22,p
+Applying move...checker at 22 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 79
+
+ After turn 80 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |          W  W  R |
+|                  |          W  W  R |
+|                  |          W  W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: p
+Game master says: No moves exist in this situation.
+No possible moves, so a double pass is accepted. 
+computing turn 80
+
+ After turn 81 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |          W  W  R |
+|                  |          W  W  R |
+|                  |          W  W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 22,p
+Applying move...checker at 22 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 81
+
+ After turn 82 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |          W  W  R |
+|                  |          W  W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: p
+Game master says: No moves exist in this situation.
+No possible moves, so a double pass is accepted. 
+computing turn 82
+
+ After turn 83 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |          W  W  R |
+|                  |          W  W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 22,p
+Applying move...checker at 22 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 83
+
+ After turn 84 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |          W  W  R |
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: p
+Game master says: No moves exist in this situation.
+No possible moves, so a double pass is accepted. 
+computing turn 84
+
+ After turn 85 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |          W  W  R |
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 22,p
+Applying move...checker at 22 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 85
+
+ After turn 86 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |             W  R |
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: p
+Game master says: No moves exist in this situation.
+No possible moves, so a double pass is accepted. 
+computing turn 86
+
+ After turn 87 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |       W  W  W  R |
+|                  |             W  R |
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 21,p
+Applying move...checker at 21 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 87
+
+ After turn 88 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |          W  W  R |
+|                  |          W  W  R |
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: p
+Game master says: No moves exist in this situation.
+No possible moves, so a double pass is accepted. 
+computing turn 88
+
+ After turn 89 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |       W  W  W  R |
+|                W |          W  W  R |
+|                  |          W  W  R |
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 21,p
+Applying move...checker at 21 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 89
+
+ After turn 90 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |          W  W  R |
+|                W |          W  W  R |
+|                  |          W  W  R |
+|                  |          W  W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: p
+Game master says: No moves exist in this situation.
+No possible moves, so a double pass is accepted. 
+computing turn 90
+
+ After turn 91 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |          W  W  R |
+|                W |          W  W  R |
+|                  |          W  W  R |
+|                  |          W  W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 22,p
+Applying move...checker at 22 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 91
+
+ After turn 92 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |          W  W  R |
+|                W |          W  W  R |
+|                  |          W  W  R |
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: p
+Game master says: No moves exist in this situation.
+No possible moves, so a double pass is accepted. 
+computing turn 92
+
+ After turn 93 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |          W  W  R |
+|                W |          W  W  R |
+|                  |          W  W  R |
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 22,p
+Applying move...checker at 22 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 93
+
+ After turn 94 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |          W  W  R |
+|                W |          W  W  R |
+|                  |             W  R |
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: p
+Game master says: No moves exist in this situation.
+No possible moves, so a double pass is accepted. 
+computing turn 94
+
+ After turn 95 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |          W  W  R |
+|                W |          W  W  R |
+|                  |             W  R |
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 22,p
+Applying move...checker at 22 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 95
+
+ After turn 96 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |          W  W  R |
+|                W |             W  R |
+|                  |             W  R |
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: p
+Game master says: No moves exist in this situation.
+No possible moves, so a double pass is accepted. 
+computing turn 96
+
+ After turn 97 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |          W  W  R |
+|                W |             W  R |
+|                  |             W  R |
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 22,p
+Applying move...checker at 22 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 97
+
+ After turn 98 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |             W  R |
+|                W |             W  R |
+|                  |             W  R |
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: p
+Game master says: No moves exist in this situation.
+No possible moves, so a double pass is accepted. 
+computing turn 98
+
+ After turn 99 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W |             W  R |
+|                W |             W  R |
+|                  |             W  R |
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 18,p
+Applying move...checker at 18 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 99
+
+ After turn 100 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                W | W           W  R |
+|                  |             W  R |
+|                  |             W  R |
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 24,p,R
+Applying move...checker at 24 will be moved by 6 and (pass)
+Pass is accepted for the second die.
+computing turn 100
+
+ After turn 101 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                R | W           W  R |
+|                  |             W  R |
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+bar:W
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 0,6,R
+Applying move...checker at 0 will be moved by 6 and checker at 6 will be moved by 1
+computing turn 101
+
+ After turn 102 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                R | W           W  R |
+|                  |             W  R |
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                W |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 24,p,R
+Applying move...checker at 24 will be moved by 6 and (pass)
+Pass is accepted for the second die.
+computing turn 102
+
+ After turn 103 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                R | W           W  R |
+|                R |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                W |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 7,8
+Applying move...checker at 7 will be moved by 1 and checker at 8 will be moved by 6
+computing turn 103
+
+ After turn 104 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|    W           R | W           W  R |
+|                R |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 24,p,R
+Applying move...checker at 24 will be moved by 6 and (pass)
+Pass is accepted for the second die.
+computing turn 104
+
+ After turn 105 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|    W           R | W           W  R |
+|                R |             W    |
+|                R |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 19,14
+Applying move...checker at 19 will be moved by 1 and checker at 14 will be moved by 6
+computing turn 105
+
+ After turn 106 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                R |    W        W  R |
+|                R |    W        W    |
+|                R |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 18,17
+Applying move...checker at 18 will be moved by 1 and checker at 17 will be moved by 6
+computing turn 106
+
+ After turn 107 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                R |    W        W  R |
+|                R |    W        W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|    R             |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 20,20
+Applying move...checker at 20 will be moved by 1 and checker at 20 will be moved by 6
+Player White proposes to bear off from 20 with die roll of 6
+computing turn 107
+
+ After turn 108 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                R |       W     W  R |
+|                R |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|    R             |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:W
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 11,10
+Applying move...checker at 11 will be moved by 1 and checker at 10 will be moved by 6
+computing turn 108
+
+ After turn 109 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                R |       W     W  R |
+|                R |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |       R        R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:W
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 21,p
+Applying move...checker at 21 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 109
+
+ After turn 110 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                R |          W  W  R |
+|                R |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |       R        R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:W
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 18,4,R
+Applying move...checker at 18 will be moved by 6 and checker at 4 will be moved by 1
+computing turn 110
+
+ After turn 111 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                R |          W  W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+| R                |          R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:W
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 22,p
+Applying move...checker at 22 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 111
+
+ After turn 112 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                R |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+| R                |          R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:W
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 18,12,R
+Applying move...checker at 18 will be moved by 6 and checker at 12 will be moved by 1
+computing turn 112
+
+ After turn 113 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  R |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+| R  R             |          R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:W
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 23,p
+Applying move...checker at 23 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 113
+
+ After turn 114 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+| R  R             |          R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+bar:R
+White off:W
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 0,11,R
+Applying move...checker at 0 will be moved by 6 and checker at 11 will be moved by 1
+computing turn 114
+
+ After turn 115 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  | R           W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+| R     R          |          R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:W
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 24,p
+Applying move...checker at 24 will be moved by 1 and (pass)
+Player White proposes to bear off from 24 with die roll of 1
+Pass is accepted for the second die.
+computing turn 115
+
+ After turn 116 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  | R           W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+| R     R          |          R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WW
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 10,19,R
+Applying move...checker at 10 will be moved by 6 and checker at 19 will be moved by 1
+computing turn 116
+
+ After turn 117 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                R |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+| R                |       R  R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WW
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 23,p
+Applying move...checker at 23 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 117
+
+ After turn 118 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                R |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+| R                |       R  R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WW
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 18,p,R
+Applying move...checker at 18 will be moved by 6 and (pass)
+Pass is accepted for the second die.
+computing turn 118
+
+ After turn 119 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+| R                |                R |
+| R                |       R  R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WW
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 24,p
+Applying move...checker at 24 will be moved by 1 and (pass)
+Player White proposes to bear off from 24 with die roll of 1
+Pass is accepted for the second die.
+computing turn 119
+
+ After turn 120 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+| R                |                R |
+| R                |       R  R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWW
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 12,4,R
+Applying move...checker at 12 will be moved by 6 and checker at 4 will be moved by 1
+computing turn 120
+
+ After turn 121 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |          R     R |
+| R                | R        R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWW
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 23,p
+Applying move...checker at 23 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 121
+
+ After turn 122 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |          R     R |
+| R                | R        R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWW
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 12,3,R
+Applying move...checker at 12 will be moved by 6 and checker at 3 will be moved by 1
+computing turn 122
+
+ After turn 123 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  | R              R |
+|                  | R        R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWW
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 24,p
+Applying move...checker at 24 will be moved by 1 and (pass)
+Player White proposes to bear off from 24 with die roll of 1
+Pass is accepted for the second die.
+computing turn 123
+
+ After turn 124 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  | R              R |
+|                  | R        R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWW
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 6,p,R
+Applying move...checker at 6 will be moved by 6 and (pass)
+Player Red proposes to bear off from 6 with die roll of 6
+Pass is accepted for the second die.
+computing turn 124
+
+ After turn 125 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  | R        R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWW
+Red off:R
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 23,p
+Applying move...checker at 23 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 125
+
+ After turn 126 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  | R        R  R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWW
+Red off:R
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 2,p
+Applying move...checker at 2 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 126
+
+ After turn 127 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  | R        R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWW
+Red off:R
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 24,p
+Applying move...checker at 24 will be moved by 1 and (pass)
+Player White proposes to bear off from 24 with die roll of 1
+Pass is accepted for the second die.
+computing turn 127
+
+ After turn 128 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  | R        R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWW
+Red off:R
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 6,p
+Applying move...checker at 6 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 128
+
+ After turn 129 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |    R     R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWW
+Red off:R
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 23,p
+Applying move...checker at 23 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 129
+
+ After turn 130 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |    R     R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWW
+Red off:R
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 3,p
+Applying move...checker at 3 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 130
+
+ After turn 131 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |    R        R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWW
+Red off:R
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 24,p
+Applying move...checker at 24 will be moved by 1 and (pass)
+Player White proposes to bear off from 24 with die roll of 1
+Pass is accepted for the second die.
+computing turn 131
+
+ After turn 132 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |    R        R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWW
+Red off:R
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 2,p
+Applying move...checker at 2 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 132
+
+ After turn 133 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |    R           R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWW
+Red off:R
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 23,p
+Applying move...checker at 23 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 133
+
+ After turn 134 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |    R           R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWW
+Red off:R
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 1,p
+Applying move...checker at 1 will be moved by 1 and (pass)
+Player Red proposes to bear off from 1 with die roll of 1
+Pass is accepted for the second die.
+computing turn 134
+
+ After turn 135 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |    R           R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWW
+Red off:RR
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 24,p
+Applying move...checker at 24 will be moved by 1 and (pass)
+Player White proposes to bear off from 24 with die roll of 1
+Pass is accepted for the second die.
+computing turn 135
+
+ After turn 136 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |    R           R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWW
+Red off:RR
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 5,p
+Applying move...checker at 5 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 136
+
+ After turn 137 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |       R        R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWW
+Red off:RR
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 23,p
+Applying move...checker at 23 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 137
+
+ After turn 138 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |       R        R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWW
+Red off:RR
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 4,p
+Applying move...checker at 4 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 138
+
+ After turn 139 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |          R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWW
+Red off:RR
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 24,p
+Applying move...checker at 24 will be moved by 1 and (pass)
+Player White proposes to bear off from 24 with die roll of 1
+Pass is accepted for the second die.
+computing turn 139
+
+ After turn 140 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |          R     R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWW
+Red off:RR
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 3,p
+Applying move...checker at 3 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 140
+
+ After turn 141 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |             R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWW
+Red off:RR
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 23,p
+Applying move...checker at 23 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 141
+
+ After turn 142 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |             R  R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWW
+Red off:RR
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 2,p
+Applying move...checker at 2 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 142
+
+ After turn 143 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWW
+Red off:RR
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 24,p
+Applying move...checker at 24 will be moved by 1 and (pass)
+Player White proposes to bear off from 24 with die roll of 1
+Pass is accepted for the second die.
+computing turn 143
+
+ After turn 144 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWW
+Red off:RR
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 1,p
+Applying move...checker at 1 will be moved by 1 and (pass)
+Player Red proposes to bear off from 1 with die roll of 1
+Pass is accepted for the second die.
+computing turn 144
+
+ After turn 145 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWW
+Red off:RRR
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 23,p
+Applying move...checker at 23 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 145
+
+ After turn 146 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWW
+Red off:RRR
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 1,p
+Applying move...checker at 1 will be moved by 1 and (pass)
+Player Red proposes to bear off from 1 with die roll of 1
+Pass is accepted for the second die.
+computing turn 146
+
+ After turn 147 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWW
+Red off:RRRR
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 24,p
+Applying move...checker at 24 will be moved by 1 and (pass)
+Player White proposes to bear off from 24 with die roll of 1
+Pass is accepted for the second die.
+computing turn 147
+
+ After turn 148 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWW
+Red off:RRRR
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 1,p
+Applying move...checker at 1 will be moved by 1 and (pass)
+Player Red proposes to bear off from 1 with die roll of 1
+Pass is accepted for the second die.
+computing turn 148
+
+ After turn 149 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWW
+Red off:RRRRR
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 23,p
+Applying move...checker at 23 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 149
+
+ After turn 150 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWW
+Red off:RRRRR
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 1,p
+Applying move...checker at 1 will be moved by 1 and (pass)
+Player Red proposes to bear off from 1 with die roll of 1
+Pass is accepted for the second die.
+computing turn 150
+
+ After turn 151 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWW
+Red off:RRRRRR
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 24,p
+Applying move...checker at 24 will be moved by 1 and (pass)
+Player White proposes to bear off from 24 with die roll of 1
+Pass is accepted for the second die.
+computing turn 151
+
+ After turn 152 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWWW
+Red off:RRRRRR
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 1,p
+Applying move...checker at 1 will be moved by 1 and (pass)
+Player Red proposes to bear off from 1 with die roll of 1
+Pass is accepted for the second die.
+computing turn 152
+
+ After turn 153 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWWW
+Red off:RRRRRRR
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 23,p
+Applying move...checker at 23 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 153
+
+ After turn 154 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWWW
+Red off:RRRRRRR
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 1,p
+Applying move...checker at 1 will be moved by 1 and (pass)
+Player Red proposes to bear off from 1 with die roll of 1
+Pass is accepted for the second die.
+computing turn 154
+
+ After turn 155 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWWW
+Red off:RRRRRRRR
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 24,p
+Applying move...checker at 24 will be moved by 1 and (pass)
+Player White proposes to bear off from 24 with die roll of 1
+Pass is accepted for the second die.
+computing turn 155
+
+ After turn 156 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWWWW
+Red off:RRRRRRRR
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 1,p
+Applying move...checker at 1 will be moved by 1 and (pass)
+Player Red proposes to bear off from 1 with die roll of 1
+Pass is accepted for the second die.
+computing turn 156
+
+ After turn 157 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWWWW
+Red off:RRRRRRRRR
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 23,p
+Applying move...checker at 23 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 157
+
+ After turn 158 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWWWW
+Red off:RRRRRRRRR
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 1,p
+Applying move...checker at 1 will be moved by 1 and (pass)
+Player Red proposes to bear off from 1 with die roll of 1
+Pass is accepted for the second die.
+computing turn 158
+
+ After turn 159 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWWWW
+Red off:RRRRRRRRRR
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 24,p
+Applying move...checker at 24 will be moved by 1 and (pass)
+Player White proposes to bear off from 24 with die roll of 1
+Pass is accepted for the second die.
+computing turn 159
+
+ After turn 160 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWWWWW
+Red off:RRRRRRRRRR
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 1,p
+Applying move...checker at 1 will be moved by 1 and (pass)
+Player Red proposes to bear off from 1 with die roll of 1
+Pass is accepted for the second die.
+computing turn 160
+
+ After turn 161 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWWWWW
+Red off:RRRRRRRRRRR
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 23,p
+Applying move...checker at 23 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 161
+
+ After turn 162 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWWWWW
+Red off:RRRRRRRRRRR
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 1,p
+Applying move...checker at 1 will be moved by 1 and (pass)
+Player Red proposes to bear off from 1 with die roll of 1
+Pass is accepted for the second die.
+computing turn 162
+
+ After turn 163 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W  W |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWWWWW
+Red off:RRRRRRRRRRRR
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 24,p
+Applying move...checker at 24 will be moved by 1 and (pass)
+Player White proposes to bear off from 24 with die roll of 1
+Pass is accepted for the second die.
+computing turn 163
+
+ After turn 164 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWWWWWW
+Red off:RRRRRRRRRRRR
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 1,p
+Applying move...checker at 1 will be moved by 1 and (pass)
+Player Red proposes to bear off from 1 with die roll of 1
+Pass is accepted for the second die.
+computing turn 164
+
+ After turn 165 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |             W    |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWWWWWW
+Red off:RRRRRRRRRRRRR
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 23,p
+Applying move...checker at 23 will be moved by 1 and (pass)
+Pass is accepted for the second die.
+computing turn 165
+
+ After turn 166 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |                W |
++------------------+------------------+
+|                  |                R |
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWWWWWW
+Red off:RRRRRRRRRRRRR
+===============================================
+
+Red to play...
+The dice roll gives: 1, 6
+Red move command: 1,p
+Applying move...checker at 1 will be moved by 1 and (pass)
+Player Red proposes to bear off from 1 with die roll of 1
+Pass is accepted for the second die.
+computing turn 166
+
+ After turn 167 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+|                  |                W |
++------------------+------------------+
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWWWWWW
+Red off:RRRRRRRRRRRRRR
+===============================================
+
+White to play...
+The dice roll gives: 1, 6
+White move command: 24,p
+Applying move...checker at 24 will be moved by 1 and (pass)
+Player White proposes to bear off from 24 with die roll of 1
+Pass is accepted for the second die.
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
++------------------+------------------+
+|                  |                R |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+White off:WWWWWWWWWWWWWWW
+Red off:RRRRRRRRRRRRRR
+===============================================
+
+Game computed: White won! (167 turns occurred.)
